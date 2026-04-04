@@ -85,7 +85,7 @@ const Projects = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20">
           <div className="mb-8 md:mb-0">
-            <h2 className="section-title text-left !mb-4">Featured Projects</h2>
+            <h2 className="section-title text-left mb-4">Featured Projects</h2>
             <p className="text-gray-500 max-w-xl text-lg leading-relaxed">
               Explore some of my most challenging and impactful full-stack applications, designed with scalability and performance in mind.
             </p>

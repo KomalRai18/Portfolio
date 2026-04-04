@@ -1,24 +1,24 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Database, Layout, Server, Cpu, Layers } from 'lucide-react';
 
 const SkillCategory = ({ title, skills, icon: Icon, delay }) => (
-  <motion.div 
+  <motion.div
     initial={{ opacity: 0, y: 30 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.5, delay }}
     viewport={{ once: true }}
-    className="glass p-8 rounded-3xl hover:scale-105 transition-transform duration-300"
+    className="glass rounded-3xl hover:scale-105 transition-transform duration-300 min-h-[250px] flex flex-col flex-wrap gap-6"
   >
-    <div className="w-14 h-14 bg-gradient-to-br from-[#6366f1] to-[#ec4899] rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-indigo-200">
+   
+    <div className="w-14 h-14 bg-gradient-to-br from-[#6366f1] to-[#ec4899] rounded-2xl flex items-center justify-center shadow-lg shadow-indigo-200">
       <Icon className="text-white" size={28} />
     </div>
-    <h3 className="text-2xl font-bold mb-4">{title}</h3>
+    <h3 className="text-2xl font-bold mb-4 px-5">{title}</h3>
     <div className="flex flex-wrap gap-2">
       {skills.map((skill, index) => (
-        <span 
-          key={index} 
-          className="px-3 py-1 bg-white bg-opacity-50 text-indigo-700 text-sm font-semibold rounded-lg border border-indigo-100"
+        <span
+          key={index}
+          className="px-4 py-2 bg-white bg-opacity-50 text-indigo-700 text-sm font-semibold rounded-lg border border-indigo-100"
         >
           {skill}
         </span>
@@ -77,11 +77,11 @@ const Skills = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16">
           {skillData.map((category, index) => (
-            <SkillCategory 
-              key={index} 
-              title={category.title} 
-              skills={category.skills} 
-              icon={category.icon} 
+            <SkillCategory
+              key={index}
+              title={category.title}
+              skills={category.skills}
+              icon={category.icon}
               delay={category.delay}
             />
           ))}
