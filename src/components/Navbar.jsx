@@ -52,7 +52,7 @@ const Navbar = () => {
             <a href="https://github.com/KomalRai18" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#6366f1] transition-all hover:scale-110">
               <Github size={22} />
             </a>
-            <a href="https://linkedin.com/in/komalrai" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-indigo-600 transition-all hover:scale-110">
+            <a href="https://www.linkedin.com/in/komal-rai" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-indigo-600 transition-all hover:scale-110">
               <Linkedin size={22} />
             </a>
           </div>

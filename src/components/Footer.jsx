@@ -29,7 +29,7 @@ const Footer = () => {
           
           <div className="flex gap-4">
             <a href="https://github.com/KomalRai18" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-50 text-gray-400 hover:text-[#6366f1] rounded-xl transition-all"><Github size={20} /></a>
-            <a href="https://linkedin.com/in/komalrai" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-50 text-gray-400 hover:text-indigo-600 rounded-xl transition-all"><Linkedin size={20} /></a>
+            <a href="https://www.linkedin.com/in/komal-rai" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-50 text-gray-400 hover:text-indigo-600 rounded-xl transition-all"><Linkedin size={20} /></a>
             <a href="#" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-50 text-gray-400 hover:text-sky-400 rounded-xl transition-all"><Twitter size={20} /></a>
           </div>
           

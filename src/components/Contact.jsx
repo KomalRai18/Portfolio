@@ -20,23 +20,23 @@ const Contact = () => {
             </p>
             
             <div className="space-y-6 mb-10">
-              <a href="mailto:hello@komalrai.dev" className="flex items-center gap-4 p-4 glass rounded-2xl hover:bg-white/50 transition-colors group">
+              <a href="mailto:raikomal984@gmail.com" className="flex items-center gap-4 p-4 glass rounded-2xl hover:bg-white/50 transition-colors group">
                 <div className="p-3 bg-indigo-50 text-[#6366f1] rounded-xl group-hover:scale-110 transition-transform">
                   <Mail size={24} />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-700">Email</h4>
-                  <p className="text-gray-500">hello@komalrai.dev</p>
+                  <p className="text-gray-500">raikomal984@gmail.com</p>
                 </div>
               </a>
               
-              <a href="https://linkedin.com/in/komalrai" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 glass rounded-2xl hover:bg-white/50 transition-colors group">
+              <a href="https://www.linkedin.com/in/komal-rai" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 glass rounded-2xl hover:bg-white/50 transition-colors group">
                 <div className="p-3 bg-indigo-50 text-[#6366f1] rounded-xl group-hover:scale-110 transition-transform">
                   <Linkedin size={24} />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-700">LinkedIn</h4>
-                  <p className="text-gray-500">linkedin.com/in/komalrai</p>
+                  <p className="text-gray-500">linkedin.com/in/komal-rai</p>
                 </div>
               </a>
             </div>
