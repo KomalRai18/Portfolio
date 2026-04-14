@@ -22,10 +22,10 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${scrolled ? 'glass py-4' : 'bg-transparent py-8'}`}>
+    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${scrolled ? 'glass py-6' : 'bg-transparent py-10'}`}>
       <div className="container flex items-center justify-between">
         <div className="flex-shrink-0">
-          <a href="#home" className="text-2xl font-bold transition-transform hover:scale-105 inline-block" style={{ 
+          <a href="#home" className="text-3xl font-bold transition-transform hover:scale-105 inline-block" style={{ 
             fontFamily: 'var(--font-display)',
             background: 'linear-gradient(to right, var(--primary), var(--secondary))',
             WebkitBackgroundClip: 'text',
@@ -36,23 +36,23 @@ const Navbar = () => {
         </div>
         
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-12">
-          <div className="flex items-baseline space-x-10">
+        <div className="hidden md:flex items-center gap-16">
+          <div className="flex items-baseline gap-12">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="text-gray-600 hover:text-[#6366f1] font-semibold text-sm tracking-wide transition-colors uppercase"
+                className="text-gray-600 hover:text-[#6366f1] font-semibold text-base tracking-wide transition-colors uppercase"
               >
                 {link.name}
               </a>
             ))}
           </div>
-          <div className="flex items-center space-x-5 pl-8 border-l border-gray-200">
+          <div className="flex items-center gap-8 pl-10 border-l border-gray-200">
             <a href="https://github.com/KomalRai18" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#6366f1] transition-all hover:scale-110">
               <Github size={22} />
             </a>
-            <a href="https://linkedin.com/in/komalrai" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-indigo-600 transition-all hover:scale-110">
+            <a href="https://www.linkedin.com/in/komal-rai" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-indigo-600 transition-all hover:scale-110">
               <Linkedin size={22} />
             </a>
           </div>

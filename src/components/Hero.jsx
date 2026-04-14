@@ -17,7 +17,7 @@ const Hero = () => {
           viewport={{ once: true }}
           className="md:w-3/5 text-left z-10"
         >
-          <span className="inline-block px-4 py-2 mb-8 text-xs font-bold tracking-[0.2em] text-[#6366f1] uppercase bg-[#6366f1]/10 rounded-lg border border-[#6366f1]/20">
+          <span className="inline-block px-3 py-0.5 mb-8 text-md font-bold tracking-[0.2em] text-[#6366f1] uppercase bg-[#6366f1]/10 rounded-lg border border-[#6366f1]/20 w-fit">
             Full Stack Developer
           </span>
           <h1 className="text-5xl md:text-7xl font-extrabold mb-8 leading-[1.1] tracking-tight">
@@ -31,11 +31,11 @@ const Hero = () => {
             Architecting robust, scalable, and visually stunning digital experiences using modern cloud technologies and full-stack frameworks.
           </p>
           
-          <div className="flex flex-wrap gap-6">
-            <a href="#projects" className="btn btn-primary px-10 py-5 text-lg shadow-xl shadow-indigo-200">
+          <div className="flex flex-wrap gap-4">
+            <a href="#projects" className="btn btn-primary px-8 py-2 text-lg shadow-xl shadow-indigo-200">
               Explore Projects <ArrowRight className="ml-3" size={20} />
             </a>
-            <a href="https://github.com/KomalRai18" target="_blank" rel="noopener noreferrer" className="btn btn-outline px-10 py-5 text-lg">
+            <a href="https://github.com/KomalRai18" target="_blank" rel="noopener noreferrer" className="btn btn-outline px-5 py-2 text-lg">
               Check GitHub <Github className="ml-3" size={20} />
             </a>
           </div>

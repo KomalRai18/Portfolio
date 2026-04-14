@@ -11,7 +11,7 @@ const ProjectCard = ({ title, desc, img, tags, live, git, delay }) => (
     className="group relative glass p-4 rounded-[2.5rem] hover:rotate-1 transition-all duration-500 hover:shadow-2xl h-full flex flex-col"
   >
     <div className="relative overflow-hidden rounded-[2rem] h-64 mb-6">
-      <img src={img} alt={title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+      <img src={img} alt={title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"/>
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
         <div className="flex gap-4">
           <a href={live} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/40 transition-colors">
@@ -52,30 +52,30 @@ const ProjectCard = ({ title, desc, img, tags, live, git, delay }) => (
 const Projects = () => {
   const projects = [
     {
-      title: "OmniSaaS Dashboard",
+      title: "Campaign Dashboard",
       desc: "A full-stack enterprise resource management platform built with NestJS, React, and PostgreSQL. Features real-time inventory tracking and AI-driven sales forecasting.",
-      img: "/project_ecommerce_saas.png",
+      img: "/dashboard-img.png",
       tags: ["NestJS", "React", "PostgreSQL", "RabbitMQ"],
-      live: "https://demo.omnisass.dev",
-      git: "https://github.com/KomalRai18/omnisass",
+      live: "https://campaign-dashboard-delta-eight.vercel.app/",
+      git: "https://github.com/KomalRai18/campaign-dashboard",
       delay: 0.1
     },
     {
-      title: "NexusChat Mobile",
-      desc: "High-performance real-time messaging application supporting end-to-end encryption, file sharing (via AWS S3), and group video calls using Socket.io.",
-      img: "/project_realtime_chat.png",
-      tags: ["Node.js", "Socket.io", "AWS S3", "Redis"],
-      live: "https://nexuschat.app",
-      git: "https://github.com/KomalRai18/nexuschat",
+      title: "Products Display Dashboard",
+      desc: "A React-based product dashboard using Axios for API integration, React Hook Form + Zod for validation, Tailwind CSS for responsive UI, featuring search, sorting, and optimized state management with hooks.",
+      img: "/ecommerce-dashboard.png",
+      tags: ["Node.js", "React", "TanStack Query", "React-router-dom"],
+      live: "https://product-dashboard-eight-rouge.vercel.app",
+      git: "https://github.com/KomalRai18/Product-Dashboard",
       delay: 0.3
     },
     {
       title: "VisionAI Analytics",
       desc: "Advanced data visualization tool for AI models. Implements complex GraphQL queries, Dockerized microservices, and Stripe integration for premium insights.",
-      img: "/project_ai_analytics.png",
+      img: "/ecommerce-img.png",
       tags: ["GraphQL", "Docker", "Stripe", "Prisma"],
-      live: "https://visionai.analytics",
-      git: "https://github.com/KomalRai18/visionai",
+      live: "https://ecommerce-website-one-sooty.vercel.app/",
+      git: "https://github.com/KomalRai18/ecommerce-website",
       delay: 0.5
     }
   ];
@@ -84,8 +84,8 @@ const Projects = () => {
     <section id="projects" className="section bg-indigo-50/30">
       <div className="container">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20">
-          <div className="mb-8 md:mb-0">
-            <h2 className="section-title text-left !mb-4">Featured Projects</h2>
+          <div className="mb-3 md:mb-0">
+            <h2 className="section-title text-left">Featured Projects</h2>
             <p className="text-gray-500 max-w-xl text-lg leading-relaxed">
               Explore some of my most challenging and impactful full-stack applications, designed with scalability and performance in mind.
             </p>
