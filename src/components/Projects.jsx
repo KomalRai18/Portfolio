@@ -52,21 +52,21 @@ const ProjectCard = ({ title, desc, img, tags, live, git, delay }) => (
 const Projects = () => {
   const projects = [
     {
-      title: "OmniSaaS Dashboard",
+      title: "Campaign Dashboard",
       desc: "A full-stack enterprise resource management platform built with NestJS, React, and PostgreSQL. Features real-time inventory tracking and AI-driven sales forecasting.",
-      img: "/project_ecommerce_saas.png",
+      img: "/dashboard-img.png",
       tags: ["NestJS", "React", "PostgreSQL", "RabbitMQ"],
-      live: "https://demo.omnisass.dev",
-      git: "https://github.com/KomalRai18/omnisass",
+      live: "https://campaign-dashboard-delta-eight.vercel.app/",
+      git: "https://github.com/KomalRai18/campaign-dashboard",
       delay: 0.1
     },
     {
-      title: "NexusChat Mobile",
-      desc: "High-performance real-time messaging application supporting end-to-end encryption, file sharing (via AWS S3), and group video calls using Socket.io.",
-      img: "/project_realtime_chat.png",
-      tags: ["Node.js", "Socket.io", "AWS S3", "Redis"],
-      live: "https://nexuschat.app",
-      git: "https://github.com/KomalRai18/rideapp-frontend",
+      title: "Products Display Dashboard",
+      desc: "A React-based product dashboard using Axios for API integration, React Hook Form + Zod for validation, Tailwind CSS for responsive UI, featuring search, sorting, and optimized state management with hooks.",
+      img: "/ecommerce-dashboard.png",
+      tags: ["Node.js", "React", "TanStack Query", "React-router-dom"],
+      live: "https://product-dashboard-eight-rouge.vercel.app",
+      git: "https://github.com/KomalRai18/Product-Dashboard",
       delay: 0.3
     },
     {
