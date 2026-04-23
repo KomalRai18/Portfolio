@@ -23,7 +23,7 @@ function App() {
         <Skills />
         <Experience />
         <Projects />
-        <Certificates />
+        {/* <Certificates /> */}
         <GithubSection />
         <Contact />
       </main>
