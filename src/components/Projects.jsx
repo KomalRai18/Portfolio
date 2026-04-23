@@ -70,12 +70,12 @@ const Projects = () => {
       delay: 0.3
     },
     {
-      title: "VisionAI Analytics",
-      desc: "Advanced data visualization tool for AI models. Implements complex GraphQL queries, Dockerized microservices, and Stripe integration for premium insights.",
-      img: "/ecommerce-img.png",
-      tags: ["GraphQL", "Docker", "Stripe", "Prisma"],
-      live: "https://ecommerce-website-one-sooty.vercel.app/",
-      git: "https://github.com/KomalRai18/ecommerce-website",
+      title: "Weather-Forecast-Bot",
+      desc: "An intelligent weather forecasting chatbot that delivers real-time, location-based weather insights and multi-day predictions through natural conversational interaction",
+      img: "/Forecast-bot-img.png",
+      tags: ["Google Dialogflow", "openweatherapi 3.0", "React", "TypeScript", "Node.js"],
+      live: "https://bot-weather-forecasta.vercel.app/",
+      git: "https://github.com/KomalRai18/Bot-Weather-Forecasta",
       delay: 0.5
     }
   ];
