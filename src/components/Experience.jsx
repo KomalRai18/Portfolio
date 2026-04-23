@@ -18,9 +18,9 @@ const ExpItem = ({ role, company, period, loc, desc, delay }) => (
     
     <div className="flex flex-col md:flex-row md:items-center justify-between gap-2">
       <h3 className="text-xl font-bold text-gray-800">{role}</h3>
-      <span className="text-sm font-medium text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full flex items-center">
+      {/* <span className="text-sm font-medium text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full flex items-center">
         <Calendar size={14} className="mr-1.5" /> {period}
-      </span>
+      </span> */}
     </div>
 
     <div className="flex items-center text-gray-500 text-sm">
